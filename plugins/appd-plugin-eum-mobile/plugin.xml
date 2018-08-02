@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" xmlns:android="http://schemas.android.com/apk/res/android" id="appd-plugin-eum-mobile" version="1.0.0">
+  <name>ADEUMMobilePlugin</name>
+<description>AppDynamics mobile agent plugin</description>
+    <license>Proprietary</license>
+    <keywords></keywords>
+
+  <!-- js -->
+  <js-module name="ADEUMMobilePlugin" src="www/ADEUMMobilePlugin.js">
+    <clobbers target="ADEUMMobilePlugin"/>
+  </js-module>
+
+  <!-- android -->
+  <platform name="android">
+    <config-file parent="/*" target="res/xml/config.xml">
+      <feature name="ADEUMMobilePlugin">
+        <param name="android-package" value="com.appdynamics.cordova.plugin.ADEUMMobilePlugin"/>
+      </feature>
+    </config-file>
+    <config-file parent="/*" target="AndroidManifest.xml"/>
+    <source-file src="src/android/com/appdynamics/cordova/plugin/ADEUMMobilePlugin.java" target-dir="src/com/appdynamics/cordova/plugin"/>
+    <hook type="before_plugin_uninstall" src="android_hooks/before_plugin_uninstall.js" />
+    <hook type="after_plugin_install" src="android_hooks/after_plugin_install.js" />
+    <framework src="android_hooks/build-extras.gradle" custom="true" type="gradleReference" />
+  </platform>
+
+  <!-- ios -->
+  <platform name="ios">
+    <config-file parent="/*" target="config.xml">
+      <feature name="ADEUMMobilePlugin">
+        <param name="ios-package" value="ADEUMMobilePlugin" onload="true"/>
+      </feature>
+    </config-file>
+    <config-file parent="ADEUM_Settings" target="*-Info.plist">
+      <key>ADEUM_Settings</key>
+<dict>
+  <key>ForceWebviewInstrumentation</key>
+  <true/>
+  <key>ForceAjaxInstrumentation</key>
+  <true/>
+  <key>ADRUMExtUrlHttp</key>
+  <string>http://cdn.appdynamics.com</string>
+  <key>ADRUMExtUrlHttps</key>
+  <string>https://cdn.appdynamics.com</string>
+</dict>
+    </config-file>
+    <header-file src="src/ios/ADEUMPluginVersion.h" />
+    <header-file src="src/ios/ADEUMMobilePlugin.h" />
+    <source-file src="src/ios/ADEUMMobilePlugin.m"/>
+    <framework src="libz.tbd" />
+    <framework src="WebKit.framework" />
+    <framework src="libsqlite3.dylib" />
+    <framework src="CoreTelephony.framework" />
+    <framework src="SystemConfiguration.framework" />
+    <framework src="src/ios/ADEUMInstrumentation.framework" custom="true" />
+  </platform>
+</plugin>

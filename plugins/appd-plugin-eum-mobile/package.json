@@ -1,0 +1,43 @@
+{
+  "_from": "appd-plugin-eum-mobile",
+  "_id": "appd-plugin-eum-mobile@1.2.0",
+  "_inBundle": false,
+  "_integrity": "sha1-4VpXI+MMgPFHqApKzbHoUGAXjc4=",
+  "_location": "/appd-plugin-eum-mobile",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "appd-plugin-eum-mobile",
+    "name": "appd-plugin-eum-mobile",
+    "escapedName": "appd-plugin-eum-mobile",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/appd-plugin-eum-mobile/-/appd-plugin-eum-mobile-1.2.0.tgz",
+  "_shasum": "e15a5723e30c80f147a80a4acdb1e85060178dce",
+  "_spec": "appd-plugin-eum-mobile",
+  "_where": "/Users/carlosdoki/new-ionic3-angular4",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "appd-plugin-eum-mobile",
+    "platforms": [
+      "android",
+      "ios"
+    ]
+  },
+  "deprecated": false,
+  "description": "AppDynamics mobile agent plugin",
+  "license": [
+    {
+      "type": "SEE LICENSE FILE"
+    }
+  ],
+  "name": "appd-plugin-eum-mobile",
+  "version": "1.2.0"
+}

@@ -1,0 +1,32 @@
+ <DependencyInjector> Starting dependency injection
+ <DependencyInjector> Copying maven-repository: MavenRepo (https://repo1.maven.org/maven2/
+ <DependencyInjector> Copying maven-repository: BintrayJCenter (https://jcenter.bintray.com/
+ <DependencyInjector> Copying maven-repository: maven (https://maven.google.com
+ <DependencyInjector> Found AppDynamics Gradle Plugin: com.appdynamics:appdynamics-gradle-plugin:4.5.+
+ <DependencyInjector> AppDynamics Gradle Plugin version: 4.5.+
+ <DependencyInjector> AppDynamics Runtime version: 4.5.+
+ <DependencyInjector> Injecting dependency: com.appdynamics:appdynamics-runtime:4.5.+
+ <DependencyInjector> Starting dependency injection
+ <DependencyInjector> Copying maven-repository: MavenRepo (https://repo1.maven.org/maven2/
+ <DependencyInjector> Copying maven-repository: BintrayJCenter (https://jcenter.bintray.com/
+ <DependencyInjector> Copying maven-repository: maven (https://maven.google.com
+ <DependencyInjector> Found AppDynamics Gradle Plugin: com.appdynamics:appdynamics-gradle-plugin:4.5.+
+ <DependencyInjector> AppDynamics Gradle Plugin version: 4.5.+
+ <DependencyInjector> AppDynamics Runtime version: 4.5.+
+ <DependencyInjector> Injecting dependency: com.appdynamics:appdynamics-runtime:4.5.+
+ <DependencyInjector> Starting dependency injection
+ <DependencyInjector> Copying maven-repository: MavenRepo (https://repo1.maven.org/maven2/
+ <DependencyInjector> Copying maven-repository: BintrayJCenter (https://jcenter.bintray.com/
+ <DependencyInjector> Copying maven-repository: maven (https://maven.google.com
+ <DependencyInjector> Found AppDynamics Gradle Plugin: com.appdynamics:appdynamics-gradle-plugin:4.5.+
+ <DependencyInjector> AppDynamics Gradle Plugin version: 4.5.+
+ <DependencyInjector> AppDynamics Runtime version: 4.5.+
+ <DependencyInjector> Injecting dependency: com.appdynamics:appdynamics-runtime:4.5.+
+ <DependencyInjector> Starting dependency injection
+ <DependencyInjector> Copying maven-repository: MavenRepo (https://repo1.maven.org/maven2/
+ <DependencyInjector> Copying maven-repository: BintrayJCenter (https://jcenter.bintray.com/
+ <DependencyInjector> Copying maven-repository: maven (https://maven.google.com
+ <DependencyInjector> Found AppDynamics Gradle Plugin: com.appdynamics:appdynamics-gradle-plugin:4.5.+
+ <DependencyInjector> AppDynamics Gradle Plugin version: 4.5.+
+ <DependencyInjector> AppDynamics Runtime version: 4.5.+
+ <DependencyInjector> Injecting dependency: com.appdynamics:appdynamics-runtime:4.5.+

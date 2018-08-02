@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.appdynamics:appdynamics-runtime:4.5.0.1068@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appdynamics/appdynamics-runtime/4.5.0.1068/5b072dbe2332efefd6333853c8708488180e74a7/appdynamics-runtime-4.5.0.1068.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.appdynamics/appdynamics-runtime/4.5.0.1068/a9620d0388e540daf8640cbfab5886ab372523d5/appdynamics-runtime-4.5.0.1068-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
