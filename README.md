@@ -1,14 +1,14 @@
 # appdynamics-hybrid-EUM-ionic
 
 Edit `app.component.ts` and add
-` 
+```
 ...
 import ...
 declare var window: any;
 ....
-`
+```
 and
-`
+```
 ...
 platform.ready().then(() => {
 ...
@@ -28,7 +28,7 @@ console.log("initWithConfiguration error:" + error);
 }
 );
 ...
-`
+```
 
 ### ScreenShot AppDynamics EUM BRUN
 ![Imgur](AppDEUM.png)
